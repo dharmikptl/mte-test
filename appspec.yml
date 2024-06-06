@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:eu-north-1:533442436998:task-definition/mte-taskdef:1"
+        TaskDefinition: 'arn:aws:ecs:eu-north-1:533442436998:task-definition/mte-taskdef:2'
         LoadBalancerInfo:
-          ContainerName: "mte-container"
+          ContainerName: 'mte-container'
           ContainerPort: 80
